@@ -13,6 +13,8 @@ Outline of Steps to install Sickrage on these before you use this to manage the 
 ```
 cd /tmp
 wget https://github.com/nugsolot/scripts/blob/master/Drobo/sickrage/preflight.sh	
+wget https://github.com/nugsolot/scripts/blob/master/Drobo/sickrage/service.sh
+chmod +x preflight.sh
 ./preflight.sh
 cd /mnt/DroboFS/Shares/DroboApps/sickrage/
 ./service start
