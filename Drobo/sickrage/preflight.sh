@@ -7,4 +7,3 @@ mkdir data var
 mkdir data/Logs
 cp /tmp/service.sh .
 chmod +x service.sh
-

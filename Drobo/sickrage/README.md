@@ -17,13 +17,13 @@ wget https://github.com/nugsolot/scripts/blob/master/Drobo/sickrage/service.sh
 chmod +x preflight.sh
 ./preflight.sh
 cd /mnt/DroboFS/Shares/DroboApps/sickrage/
-./service start
+./service.sh start
 ```
 6. Control the script with service.sh in the sickrage folder in ~/Shares/DroboApps/sickrage
 ```
-./service start
-./service stop
-./service status
+./service.sh start
+./service.sh stop
+./service.sh status
 ```
 
 Thanks to Steven on Drobo Forums for the service.sh script
