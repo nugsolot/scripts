@@ -5,5 +5,4 @@ rm -r app
 git clone https://github.com/SickRage/SickRage.git app
 mkdir data var
 mkdir data/Logs
-cp /tmp/service.sh .
-chmod +x service.sh
+cp /tmp/sickrage/Drobo/sickrage/service.sh .
