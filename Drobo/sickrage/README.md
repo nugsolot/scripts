@@ -12,6 +12,7 @@ Outline of Steps to install Sickrage on these before you use this to manage the 
 5. Run preflight.sh to checkout current sickrage version and install service controll script
 ```
 cd /tmp
+rm -rf /tmp/sickrage
 /mnt/DroboFS/Shares/DroboApps/git/bin/git clone https://github.com/nugsolot/scripts/ sickrage
 cd sickrage/Drobo/sickrage/
 ./preflight.sh
