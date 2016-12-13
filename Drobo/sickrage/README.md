@@ -10,12 +10,19 @@ Outline of Steps to install Sickrage on these before you use this to manage the 
 	*Note* the paths of the binary files are relative to the installation locations 
 4. Get the scripts in scripts/sickrage and save to /tmp
 5. Run preflight.sh to checkout current sickrage version and install service controll script
+```
 	ex 
 		cd /tmp
 		wget https://github.com/nugsolot/scripts/blob/master/Drobo/sickrage/preflight.sh	
 		./preflight.sh
 		cd /mnt/DroboFS/Shares/DroboApps/sickrage/
 		./service start
+```
 6. Control the script with service.sh in the sickrage folder in ~/Shares/DroboApps/sickrage
+```
+		./service start
+		./service stop
+		./service status
 
+```
 
